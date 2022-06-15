@@ -13,7 +13,7 @@ window.addEventListener('scroll', function () {
                  Change color on scroll
 =====================================================================*/
 window.addEventListener('scroll', function () {
-    if (window.scrollY > 700 && window.scrollY < 1850 || window.scrollY > 2700 && window.scrollY < 3800) {
+    if (window.scrollY > 700 && window.scrollY < 1850 || window.scrollY > 2950 && window.scrollY < 4150) {
         document.getElementById("follow-text").classList.add("scrolling");
         document.getElementById("follow-line").classList.add("scrolling");
         document.getElementById("follow-link-github").classList.add("scrolling");
@@ -46,7 +46,7 @@ window.addEventListener('scroll', function () {
 });
 
 window.addEventListener('scroll', function () {
-    if (window.scrollY > 2700) {
+    if (window.scrollY > 3000) {
         for (let i = 0; i < process.length; i++) {
             process[i].classList.remove("name-skills__animation");
         }
