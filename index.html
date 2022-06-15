@@ -33,9 +33,10 @@
     <script async src="scripts/switch-skills.js"></script>
 </head>
 
-<body class="page">
-    <div id="wp-header" class="page__wrapper wrapper-header">
-        <header class="page__header header">
+<body>
+    <main class="page">
+        <div id="wp-header" class="page__wrapper wrapper-header">
+            <header class="page__header header">
             <div class="header__logo-container logo-container">
                 <a class="logo-container__logo logo" href="index.html" title="Iryna Shapavalava">
                     <img class="logo__img" src="assets/logo-irliss.png" alt="Logo">
@@ -321,9 +322,9 @@
                 </div>
             </div>
         </header>
-    </div>
+        </div>
 
-    <section class="page__home home">
+        <section class="page__home home">
         <div class="page__wrapper wrapper-home">
             <div class="wrapper-home__wp-content-home wp-content-home">
                 <div class="wp-content-home__wp-illustration wp-illustration">
@@ -359,7 +360,7 @@
     </div>
 </section>
 
-    <aside class="page__home-aside aside-stick-follow">
+        <aside class="page__home-aside aside-stick-follow">
         <ul class="aside-stick-follow__list">
             <li class="aside-stick-follow__item" title="GitHub">
                 <a id="follow-link-github" class="aside-stick-follow__link" href="https://github.com/IrLiss">
@@ -405,8 +406,7 @@
         </svg>
         <p id="follow-text" class="aside-stick-follow__text follow-text">Follow Me</p>
     </aside>
-
-    <section id="about" class="page__about about">
+        <section id="about" class="page__about about">
         <div class="page__wrapper wrapper-about">
             <div class="wrapper-about__left-column left-column-content-about">
                 <h3 class="left-column-content-about__title-h3 left-column-content-about__title-current-page">About me</h3>
@@ -760,8 +760,8 @@
         </div>
     </section>
 
-    <!--Section for change-->
-    <section id="education">
+        <!--Section education was in development-->
+        <section id="education">
             <div class="landscape" style="background-image: url(assets/img/belarus-photo.jpg);">
                 <div class="overlay">
                     <div class="container">
@@ -895,7 +895,7 @@
             </div>
     </section>
 
-    <section id="skills" class="page__skills skills">
+        <section id="skills" class="page__skills skills">
         <div class="page__wrapper wrapper-skills">
             <div class="wrapper-skills__wp-switch switch-skills">
                 <h2 class="switch-skills__title">Skills</h2>
@@ -1403,7 +1403,6 @@
                             <img class="language__flag" src="assets/icon/ru-icon.png" alt="ru">
                             <p class="language__name">Russian - Native</p>
                         </div>
-
                         <div class="language__wp">
                             <img class="language__flag" src="assets/icon/bel-icon.png" alt="by">
                             <p class="language__name">Belarusian - Intermediate</p>
@@ -1423,7 +1422,7 @@
         </div>
     </section>
 
-    <section id="projects" class="page__projects projects">
+        <section id="projects" class="page__projects projects">
         <div class="page__wrapper wrapper-projects wrapper-projects__img" style="background-image: url(assets/img/code-projects.jpg); z-index: 0;">
             <div class="page__wrapper-overlay">
                 <div class="page__wrapper-container container-projects">
@@ -1710,7 +1709,7 @@
         </div>
     </section>
 
-    <section id="contacts" class="page__contacts contacts">
+        <section id="contacts" class="page__contacts contacts">
         <div class="contacts__feedback-message feedback-message contacts__feedback-message_success">
             <div class="feedback-message__success">
                 <p class="feedback-message__message feedback-message__message-success">Thank you for contacting me, I'll reply to you very soon.</p>
@@ -1790,7 +1789,7 @@
         <div class="contacts__bg-half-circle"></div>
     </section>
 
-    <footer class="page__footer footer">
+        <footer class="page__footer footer">
         <div class="wrapper-footer">
             <a class="wrapper-footer__link-github" href="https://github.com/IrLiss" target=" _blank">
                 <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
@@ -1857,15 +1856,15 @@
         </div>
     </footer>
 
-    <script>
-        let enContent = ['My name is Iryna Shapavalava.^1000','Welcome to my Resume Website.^1000','Scroll down below, that will know me better... :)^1000'];
-        new Typed('#typed', {
-            strings: enContent,
-            typeSpeed: 120,
-            backSpeed: 120,
-            loop: true
-        });
-    </script>
-
+        <script>
+            let enContent = ['My name is Iryna Shapavalava.^1000','Welcome to my Resume Website.^1000','Scroll down below, that will know me better... :)^1000'];
+            new Typed('#typed', {
+                strings: enContent,
+                typeSpeed: 120,
+                backSpeed: 120,
+                loop: true
+            });
+        </script>
+    </main>
 </body>
 </html>
