@@ -17,7 +17,7 @@
 .wrapper-skills__wp-switch {
     width: 100%;
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 50px; /*вернуть 100px, когда удалю фигню с codewars*/
 }
 
 .switch-skills__title {
@@ -237,4 +237,22 @@
         -webkit-transform: scaleX(1);
         transform: scaleX(1);
     }
+}
+
+
+/*Language*/
+.language__wp {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+}
+
+.language__flag {
+    width: 35px;
+    margin: 0 15px 0 0;
+}
+
+.language__name {
+    margin: auto 15px auto 0;
+    font-size: 1.375rem;
 }
