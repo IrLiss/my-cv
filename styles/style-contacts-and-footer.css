@@ -260,6 +260,11 @@
 
 .wrapper-footer {
     display: flex;
+    width: 1600px;
+}
+
+.wrapper-footer__link-github,
+.wrapper-footer__link-rsschool {
     margin: 0;
 }
 
