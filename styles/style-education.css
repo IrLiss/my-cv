@@ -1,5 +1,5 @@
 /*------------------------------------------------------------------------------Education change*/
-#experience {
+.landscape {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -45,9 +45,6 @@
 
 .top-container .title {
     flex-grow:4;
-}
-
-.top-container .title h1 {
     font-size: 2.625rem;
     font-weight: 600;
 }
