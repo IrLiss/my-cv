@@ -86,15 +86,20 @@
 }
 
 .right-column-content-about__profile-picture {
+    overflow: hidden;
     display: block;
     width: 450px;
     height: 450px;
+/*    background-image: url(../assets/img/iryna-shapavalava-irliss-picture.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center top;
-    border-radius: 99em;
-    background-image: url(../assets/img/iryna-shapavalava-irliss-picture.jpg);
+    background-position: center top;*/
+    border-radius: 100%;
     border: 3px solid #d4e7fe;
+}
+
+.right-column-content-about__picture {
+    width: 100%;
 }
 
 .right-column-content-about__social-icon {
