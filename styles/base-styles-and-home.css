@@ -251,7 +251,7 @@ a {
     fill: #222f5c;
 }
 
-.active #line {
+.active .line {
     animation: line 1s;
 }
 
@@ -264,7 +264,7 @@ a {
     }
 }
 
-.active #circle {
+.active .circle {
     transform-box: fill-box;
     transform-origin: center;
     animation: circle calc( 1s/ 1.5 );
