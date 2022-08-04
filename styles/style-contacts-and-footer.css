@@ -95,10 +95,10 @@
     margin: 0 20px 0 0;
     width: 120px;
     height: 120px;
-/*    background-image: url(../assets/img/iryna-shapavalava-irliss-picture.jpg);
+    background-image: url(../assets/img/iryna-shapavalava-irliss-picture.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center top;*/
+    background-position: center top;
     border: 1px solid #d4e7fe;
     border-radius: 100%;
 }
@@ -258,6 +258,7 @@
     flex-direction: column;
     justify-content: space-between;
     position: relative;
+    height: 65px;
     background-color: #3a5f8e;
     text-align: center;
     z-index: 2;
