@@ -16,8 +16,8 @@
     background-color: #fff;
     flex-direction: row;
     border-radius: 15px;
-    box-shadow: 0 0 9px rgba(112, 112, 112, 0.16);
-    z-index: 2;
+    box-shadow: 0 0 9px rgba(112, 112, 112, .16);
+    z-index: 12;
     padding: 30px;
     max-width: 1600px;
 }
@@ -90,10 +90,10 @@
     display: block;
     width: 450px;
     height: 450px;
-/*    background-image: url(../assets/img/iryna-shapavalava-irliss-picture.jpg);
+    background-image: url(../assets/img/iryna-shapavalava-irliss-picture.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center top;*/
+    background-position: center top;
     border-radius: 100%;
     border: 3px solid #d4e7fe;
 }

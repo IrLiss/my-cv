@@ -28,6 +28,7 @@
     background-clip: initial;
     background-color: initial;
     transition: background-image .3s ease-in-out;
+    z-index: 11;
 }
 
 .container {

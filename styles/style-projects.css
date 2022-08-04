@@ -24,6 +24,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     transition: background-image .3s ease-in-out;
+    z-index: 11;
 }
 
 .page__wrapper-container {
