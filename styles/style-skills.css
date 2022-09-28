@@ -12,6 +12,7 @@
     display: flex;
     flex-direction: column;
     max-width: 1600px;
+    width: 85%;
 }
 
 .wrapper-skills__wp-switch {
