@@ -29,6 +29,7 @@
 
 .page__wrapper-container {
     max-width: 1600px;
+    width: 85%;
 }
 
 .container-projects__title {

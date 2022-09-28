@@ -4,7 +4,7 @@
 .page__about {
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(0deg, #fff 44.44%, #d4e7fe 44.44%, #d4e7fe 0%, #fff 0%, #fff 94.44%, #d4e7fe 94.44%, #d4e7fe 100%);
+/*    background: linear-gradient(0deg, #fff 44.44%, #d4e7fe 44.44%, #d4e7fe 0%, #fff 0%, #fff 94.44%, #d4e7fe 94.44%, #d4e7fe 100%);*/
     max-width: 1600px;
 }
 
@@ -20,6 +20,7 @@
     z-index: 12;
     padding: 30px;
     max-width: 1600px;
+    width: 85%;
 }
 
 .left-column-content-about__title-h3 {

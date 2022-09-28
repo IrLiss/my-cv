@@ -334,6 +334,7 @@ svg {
     justify-content: center;
     margin: 0;
     width: 100%;
+    position: relative;
 }
 
 .wp-illustration {
@@ -446,14 +447,15 @@ svg {
 .wp-content-home__wp-dialog {
     animation: float-dialog 6s ease-in-out infinite;
     position: relative;
-    right: 510px;
-    bottom: 305px;
+    left: -650px;
+    bottom: 505px;
     z-index: 2;
 }
 
 .wp-dialog__speech-bobble {
     width: 400px;
     margin-left: -7.25em;
+    position: absolute;
 }
 
 .wp-dialog__console {
@@ -610,4 +612,21 @@ svg {
     font-weight: 600;
     white-space: nowrap;
     transform: rotate(270deg);
+}
+
+/*==============================
+      Media Queries
+==============================*/
+@media (max-width: 1500px) {
+/*==============================
+      Section Header
+==============================*/
+    .logo-container {
+        width: 25%;
+    }
+
+    /*Speech bobble*/
+    .wp-content-home__wp-dialog {
+        left: -500px;
+    }
 }
