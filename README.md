@@ -1,8 +1,8 @@
 ## 🚀 Welcome to my new project Web Resume
 
-Deployment project:  https://irliss.github.io/rsschool-cv/
+Deployment project:  https://irliss.github.io/my-cv/
 
-Deployment project markdown:  https://irliss.github.io/rsschool-cv/cv
+Deployment project markdown:  https://irliss.github.io/my-cv/cv
 
 To date, work on this project continues. I will announce full readiness on this page.
 
