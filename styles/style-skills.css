@@ -1,0 +1,259 @@
+/*==============================
+        Section Skills
+==============================*/
+.page__skills {
+    top: -70px;
+    position: relative;
+    background-color: #d4e7fe;
+    z-index: 0;
+}
+
+.wrapper-skills {
+    display: flex;
+    flex-direction: column;
+    max-width: 1600px;
+    width: 85%;
+}
+
+.wrapper-skills__wp-switch {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px; /*вернуть 100px, когда удалю фигню с codewars*/
+}
+
+.switch-skills__title {
+    margin: 50px 0 30px 0;
+    font-size: 2.625rem;
+    font-weight: 600;
+    color: #222f5c;
+}
+
+.skills-nav {
+    border-bottom: 1px solid  rgba(87, 97, 131, 0.5);
+}
+
+.skills-nav__item {
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-style: italic;
+    color: #7d7d7d;
+    width: 50%;
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    margin: 0 0 -2px 0;
+    padding: 10px;
+}
+
+.switch-skills__nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.skills-content > .switch-skills__content {
+    display: none;
+}
+
+.switch-skills__content {
+    transition: opacity .15s linear;
+}
+
+.skills-content > .switch-skills__content_active {
+    display: block;
+}
+
+.skills-content__wp {
+    display: flex;
+    flex-direction: row;
+}
+
+.skills-nav__item_active {
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 600;
+    color: #222f5c;
+    background-color: #d4e7fe;
+    border-color:  rgba(87, 97, 131, 0.5) rgba(87, 97, 131, 0.5) #d4e7fe;
+    border-radius: 15px 15px 0 0;
+}
+
+.wrapper-column-skills__left,
+.wrapper-column-skills__right {
+    width: 100%;
+    padding: 15px;
+    margin-top: 0;
+}
+
+.wrapper-column-skills__left-wp,
+.wrapper-column-skills__right-wp {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+}
+
+.wrapper-describe {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    margin: 0;
+}
+
+.wrapper-column-skills__icon {
+    width: 35px;
+    margin: 0 15px 0 0;
+}
+
+.icon-skills-ps {
+    fill: #222f5c;
+}
+
+.icon-skills-lrc {
+    fill: #00a9ff;
+}
+
+.icon-skills-ai {
+    fill: #ff9a00;
+}
+
+.icon-skills-ae {
+    fill: #371351;
+}
+
+.icon-skills-dw {
+    fill: #3c3;
+}
+
+.icon-skills-pr {
+    fill: #9999ff;
+}
+
+.figma-0 {
+    fill: #fe4d12;
+}
+
+.figma-1 {
+    fill: #fd7260;
+}
+
+.figma-2 {
+    fill: #00cd7e;
+}
+
+.figma-3 {
+    fill: #b559fe;
+}
+
+.figma-4 {
+    fill: #00bbfd;
+}
+
+.icon-skills-html {
+    fill: #e34f26;
+}
+
+.icon-skills-css {
+    fill: #0099e5;
+}
+
+.icon-skills-js {
+    fill: #ffdf00;
+}
+
+.icon-skills-git {
+    fill: #f15233;
+}
+
+.icon-skills-sass {
+    fill: #cb6698;
+}
+
+.icon-skills-php {
+    fill: #777bb3;
+}
+
+.icon-skills-w {
+    fill: #0071bc;
+}
+
+.wrapper-column-skills__name {
+    margin: auto 15px auto 0;
+    font-size: 1.375rem;
+}
+
+.wrapper-skills-loader {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+}
+
+.name-skills-progress__span {
+    margin-right: 0;
+    margin-bottom: 5px;
+}
+
+.name-skills__progress {
+    width: 100%;
+    transform-origin: left;
+    display: flex;
+    height: 15px;
+    overflow: hidden;
+    line-height: 0;
+    font-size: .75rem;
+    background-color:  rgba(87, 97, 131, 0.15);
+    border-radius: .25rem;
+}
+
+.name-skills__animation > * {
+    height: 100%;
+    animation: progress 1.5s ease-in-out forwards;
+}
+
+.name-skills-progress__bar {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #222f5c;
+    transition: width .6s ease;
+}
+
+@keyframes progress {
+    0% {
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transform-origin: left;
+        transform-origin: left;
+    }
+    100% {
+        -webkit-transform-origin: left;
+        transform-origin: left;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+}
+
+
+/*Language*/
+.language__wp {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+}
+
+.language__flag {
+    width: 35px;
+    margin: 0 15px 0 0;
+}
+
+.language__name {
+    margin: auto 15px auto 0;
+    font-size: 1.375rem;
+}

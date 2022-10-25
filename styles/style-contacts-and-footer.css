@@ -1,0 +1,306 @@
+/*==============================
+        Section Contacts
+==============================*/
+.page__contacts {
+    position: relative;
+    background-color: #d4e7fe;
+}
+
+.contacts__wrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: 1600px;
+    width: 85%;
+}
+
+.contacts__form {
+    width: 60%;
+    margin: 0 0 50px 0;
+    z-index: 2;
+}
+
+.contacts__feedback-message {
+    display: none;
+    position: absolute;
+    padding: 1em;
+    border-radius: 15px;
+    z-index: 3;
+    top: 50%;
+    box-shadow: 0 0 9px rgba(112, 112, 112, 0.16);
+    margin: 0 1em;
+}
+
+.contacts__feedback-message_success {
+    display: none;
+    background-color: #c4e4c6;
+    border: 1px solid #cecece;
+    animation: fadeIn 1s;
+}
+
+.contacts__feedback-message_error {
+    display: none;
+    background-color: #e6adb2;
+    border: 1px solid #d49399;
+    animation: fadeIn 1s;
+}
+
+.feedback-message__success {
+    display: none;
+    color: #373837;
+}
+
+.feedback-message__error {
+    display: none;
+    color: #77242c;
+}
+
+.feedback-message__icon {
+    margin-left: 15px;
+    font-size: 22px;
+    top: 2px;
+    position: relative;
+    cursor: pointer;
+}
+
+.feedback-message__icon:hover {
+    color: #656565;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.contacts-form__title {
+    margin: 30px 0;
+    font-size: 2.625rem;
+    font-weight: 600;
+    color: #222f5c;
+}
+
+.contacts-form__wp-my-info,
+.contacts-form__wp-send-form {
+    display: flex;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 9px rgba(112, 112, 112, 0.16);
+    padding: 15px;
+}
+
+.wp-my-info__profile-picture {
+    overflow: hidden;
+    margin: 0 20px 0 0;
+    width: 120px;
+    height: 120px;
+    background-image: url(../assets/img/iryna-shapavalava-irliss-picture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    border: 1px solid #d4e7fe;
+    border-radius: 100%;
+}
+
+.wp-my-info__picture {
+    width: 100%;
+}
+
+.wp-my-info__wp-info-content {
+    margin: 0;
+}
+
+.wp-info-content__name {
+    margin-bottom: 10px;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #222f5c;
+}
+
+.wp-info-content__wp-email,
+.wp-info-content__wp-phone,
+.wp-info-content__wp-location {
+    display: flex;
+    height: 22px;
+    margin-bottom: 10px;
+}
+
+.page-contacts-icon-forms {
+    width: 16px;
+    margin-right: 10px;
+    margin-left: 0;
+    color: #222f5c;
+}
+
+.wp-email__content,
+.wp-phone__content,
+.wp-local__content {
+    margin: auto 0;
+    color: #646d8d;
+    font-weight: 600;
+}
+
+.contacts-form__wp-send-form {
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 9px rgba(112, 112, 112, 0.16);
+}
+
+.wp-send-form__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.send-form__container {
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container__label {
+    margin: 10px 0 5px 15px;
+    font-weight: 600;
+    color: #222f5c;
+}
+
+.form-container__input {
+    font-family: inherit;
+}
+
+.form-container__input[type=text],
+.form-container__input[type=email] {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 10px 0 10px 15px;
+    border: 0;
+    border-radius: 7.5px;
+    background-color: #f6f6f6;
+    color: #848484;
+    font-weight: 600;
+}
+
+.form-container__input[type=email].form-container__input_invalid {
+    border: 2px solid red;
+}
+
+.form-container__input[type=submit] {
+    background-color: #70c576;
+    font-size: 1.375rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    border: 0;
+    border-radius: 7.5px;
+    cursor: pointer;
+}
+
+.form-container__input[type=submit]:hover {
+    color: #2c612f;
+    background-color: #68bd6e;
+}
+
+.form-container__textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 5px;
+    padding: 10px 0 10px 15px;
+    border: 0;
+    border-radius: 7.5px;
+    background-color: #f6f6f6;
+    color: #848484;
+    font-family: inherit;
+    font-weight: 600;
+}
+
+.send-form__submit {
+    height: 50px;
+    width: 200px;
+    background-color: #222f5c;
+    border: none;
+    border-radius: 7.5px;
+    font-family: inherit;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contacts__illustration {
+    position: absolute;
+    height: 800px;
+    bottom: -10px;
+    right: 0;
+    z-index: 1;
+    transform: scale(-1, 1);
+}
+
+.contacts__bg-half-circle {
+    width: 650px;
+    height: 550px;
+    background-color: #c1d5ee;
+    border-top-left-radius: 100%;
+    border: 0;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    z-index: 0;
+}
+
+/*==============================
+        Section Footer
+==============================*/
+.page__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    height: 65px;
+    background-color: #3a5f8e;
+    text-align: center;
+    z-index: 2;
+}
+
+.wrapper-footer {
+    display: flex;
+    max-width: 1600px;
+    width: 100%;
+}
+
+.wrapper-footer__link-github,
+.wrapper-footer__link-rsschool {
+    margin: 0;
+}
+
+.wrapper-footer__link-github svg{
+    width: 40px;
+    fill:#fff;
+}
+
+.wrapper-footer__link-rsschool svg {
+    width: 80px;
+    fill:#fff;
+}
+
+.wrapper-footer__link-github svg:hover,
+.wrapper-footer__link-rsschool svg:hover {
+    fill: #222f5c;
+}
+
+.footer__text {
+    font-size: 0.8125em;
+    font-weight: 400;
+    line-height: 160%;
+    color: #fff;
+    margin: 20px auto;
+}
+
+.footer__link {
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .05rem;
+}
